@@ -1,7 +1,6 @@
 Bot Parses comments to various subreddits looking for hl3 confirmations and replies to them with a count increasing each time.
 
 subreddits on watch: pcmasterrace
-		     gaming
 		     halflife
 		     globaloffensive
 		     TESTBOTTEST
@@ -9,6 +8,7 @@ subreddits on watch: pcmasterrace
 
 subreddits on ban:   dota2
 		     steam
+		     gaming
 
 send a message to add more subreddits
 

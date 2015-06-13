@@ -25,7 +25,6 @@ r = praw.Reddit(user_agent='hl3_confirmer_bot by u/sallurocks version 1.0')
 r.login(u_name,p_word)
 
 
-#work on getting /r gaming comments
 
 
 #subreddit = r.get_subreddit('gaming')
@@ -66,7 +65,7 @@ while condition:
 
     #submissions = r.get_submission(submission_id='38kwdj')
     #flat_comments = praw.helpers.flatten_tree(submissions.comments)
-    subreddit = r.get_subreddit('pcmasterrace+gaming+halflife+globaloffensive+TESTBOTTEST+casualconversation')
+    subreddit = r.get_subreddit('pcmasterrace+halflife+globaloffensive+TESTBOTTEST+casualconversation')
     flat_comments = subreddit.get_comments()
     try:
         for comment in flat_comments:
